@@ -1,6 +1,5 @@
 import React, { useState, useCallback } from 'react';
 import './App.css';
-//TODO: mail to: sergey.rura@elbitsystems.com
 const TIC_TAC_TOE_GRID_LIMIT = 9;
 function App() {
   const [cells, setCells] = useState(Array(TIC_TAC_TOE_GRID_LIMIT).fill());
